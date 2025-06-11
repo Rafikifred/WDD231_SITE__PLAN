@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #1E3A8A; /* Dark Blue */
+  --accent-color: #F59E0B;  /* Amber */
+  --background-color: #f9fafb;
+  --text-color: #1f2937;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  margin-top: 10px;
+}
